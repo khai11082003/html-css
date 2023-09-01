@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.header__main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__adress{
+    display: flex;
+}
+
+.header__infor{
+    display: flex;
+}
+
+.header__logo--img img {
+    max-height: 68px;
+    width: auto;
+}
+.header__bar--icon {
+    width: 60px;
+    height: 60px;
+    background-color: #444349;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+.header__bar--icon:hover{
+    background-color: var(--color-icon);
+}
+
+i{
+    margin-right: 10px;
+}
+.header__bar--icon i{
+    margin-right: 0px;
+}
+/*end header*/
+/* section-one */
+.section__one{
+    background: url("../images/112121.jpg");
+    width: 100%;
+    height: 800px;
+    color: #fff;
+}
+.section__container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.section__one--title{
+    font-size: 80px;
+    font-weight: bold;
+}
+.section__one--subtitle{
+    font-weight: 600;
+}
+.section__one--subtitle span{
+    font-size: 50px;
+    color: var(--color-one) ;
+}
+.section__one--button{
+    width: 200px;
+    height: 60px;
+    background-color: var(--color-icon);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.section__one--button:hover{
+    background-color: #44434900;
+    color: #fff;
+    border: 3px #fff solid;
+}
+.section__one--content{
+    position: absolute;
+    left: 180px;
+}
+/* end section-one */
+/* section-two */
+.section__two{
+    width: 100%;
+    height: 250px;
+    background-color: var(--color-background);
+}
+.section__two--checking ul li{
+    list-style-type: none;
+    width: 140px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-two);
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.section__two--checking ul{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+}
+.section__two--checking{
+    display: flex;
+    align-items: center;
+}
+.section__two--checking button{
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: var(--color-two);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section__two--checking button:hover{
+    background-color: var(--color-icon);
+}
+.section__two--title{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+.section__sub{
+    justify-content: space-around;
+}
+/* end section-two */
+/* section-three */
+.section__three--image{
+    height: 800px;
+    width: 50%;
+    transform: rotate(180deg);
+}
+.section__three--image img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.section__three--content{
+    width: 50%;
+}
+.section__three-title{
+    display: flex;
+}
+.section__sub--text{
+    margin-right: 15px;
+}
+.section__sub--text h1{
+    margin: 0px;
+    font-size: 60px;
+    font-style: italic;
+    color: var(--color-one);
+    font-weight: bold;
+}
+.section__sub--text span{
+    display: inline-block;
+    font-weight: bold;
+    color: var(--color-two);
+    margin-top: 15px;
+}
+.section__three--text{
+    width: 150px;
+    line-height: 2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container--sub{
+    background-color:  #e9d5b8;
+}
+.section__content--sub{
+    margin-left: 100px;
+}
+.section__three--button{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444349;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.section__three--button:hover{
+    background-color: var(--color-icon);
+    color: #000;
+}
+/* end section-three */
